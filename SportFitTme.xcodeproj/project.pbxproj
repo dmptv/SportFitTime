@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0BF7991E64128900D0344E /* SettingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0BF7981E64128900D0344E /* SettingTableView.m */; };
 		0F1927531E600440001E02E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1927521E600440001E02E3 /* main.m */; };
 		0F1927561E600440001E02E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1927551E600440001E02E3 /* AppDelegate.m */; };
-		0F1927591E600440001E02E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1927581E600440001E02E3 /* ViewController.m */; };
+		0F1927591E600440001E02E3 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1927581E600440001E02E3 /* TimerViewController.m */; };
 		0F19275C1E600440001E02E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F19275A1E600440001E02E3 /* Main.storyboard */; };
 		0F19275E1E600440001E02E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F19275D1E600440001E02E3 /* Assets.xcassets */; };
 		0F1927611E600440001E02E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F19275F1E600440001E02E3 /* LaunchScreen.storyboard */; };
@@ -17,12 +18,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0BF7971E64128900D0344E /* SettingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableView.h; sourceTree = "<group>"; };
+		0F0BF7981E64128900D0344E /* SettingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableView.m; sourceTree = "<group>"; };
 		0F19274E1E600440001E02E3 /* SportFitTme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportFitTme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1927521E600440001E02E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F1927541E600440001E02E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F1927551E600440001E02E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F1927571E600440001E02E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0F1927581E600440001E02E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F1927571E600440001E02E3 /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		0F1927581E600440001E02E3 /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		0F19275B1E600440001E02E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F19275D1E600440001E02E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F1927601E600440001E02E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,10 +66,12 @@
 			children = (
 				0F1927541E600440001E02E3 /* AppDelegate.h */,
 				0F1927551E600440001E02E3 /* AppDelegate.m */,
-				0F1927571E600440001E02E3 /* ViewController.h */,
-				0F1927581E600440001E02E3 /* ViewController.m */,
+				0F1927571E600440001E02E3 /* TimerViewController.h */,
+				0F1927581E600440001E02E3 /* TimerViewController.m */,
 				0F1927681E601133001E02E3 /* ListProfilesTable.h */,
 				0F1927691E601134001E02E3 /* ListProfilesTable.m */,
+				0F0BF7971E64128900D0344E /* SettingTableView.h */,
+				0F0BF7981E64128900D0344E /* SettingTableView.m */,
 				0F19275A1E600440001E02E3 /* Main.storyboard */,
 				0F19275D1E600440001E02E3 /* Assets.xcassets */,
 				0F19275F1E600440001E02E3 /* LaunchScreen.storyboard */,
@@ -156,7 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F1927591E600440001E02E3 /* ViewController.m in Sources */,
+				0F0BF7991E64128900D0344E /* SettingTableView.m in Sources */,
+				0F1927591E600440001E02E3 /* TimerViewController.m in Sources */,
 				0F1927561E600440001E02E3 /* AppDelegate.m in Sources */,
 				0F19276A1E601134001E02E3 /* ListProfilesTable.m in Sources */,
 				0F1927531E600440001E02E3 /* main.m in Sources */,
@@ -318,6 +324,7 @@
 				0F1927671E600440001E02E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
